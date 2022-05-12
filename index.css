@@ -50,7 +50,7 @@ button:focus {
     color: greenyellow;
 }
 
-#contents {
+div .contents {
     display: flex;
     justify-content: center;
     
@@ -64,15 +64,15 @@ button:focus {
 
 
 
-#home {
+.home {
     display: flex;
 }
 
-#menu {
+.menu {
     display: none;
 }
 
-#contact {
+.contact {
     display: none;
 }
 
@@ -92,7 +92,7 @@ button:focus {
         align-items: center;
         margin-left: 0px;
     }
-    #contents {
+    div .contents {
         display: flex;
         justify-content: center;
         width: 80vw;
