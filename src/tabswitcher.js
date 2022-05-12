@@ -4,6 +4,7 @@
 
 
 function homeTabber() {
+    
     let contentsContainer = document.createElement("div")
     let homeinfo = document.createElement("div")
     homeinfo.textContent = "Fine dining - the Korean way"
@@ -14,17 +15,26 @@ function homeTabber() {
 }
 
 function menuTabber() {
+    contentsContainer.remove()
+    let contentsContainer = document.createElement("div")
     let menuinfo = document.createElement("div")
     menuinfo.textContent = "Menu items"
+    contentsContainer.classList.add('contents')
     menuinfo.classList.add('menu')
+    
     contentsContainer.appendChild(menuinfo)
+    content.appendChild(contentsContainer)
 }
 
 function contactTabber() {
+    let contentsContainer = document.createElement("div")
     let contactinfo = document.createElement("div")
     contactinfo.textContent = "Contact items"
+    contentsContainer.classList.add('contents')
     contactinfo.classList.add('contact')
+    
     contentsContainer.appendChild(contactinfo)
+    content.appendChild(contentsContainer)
 }
 
 /*

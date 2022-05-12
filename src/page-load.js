@@ -10,8 +10,10 @@ function loadPage(content) {
     homeButton.setAttribute("id", "homeButton")
     homeButton.textContent = "Home"
     let menuButton = document.createElement("button")
+    menuButton.setAttribute("id", "menuButton")
     menuButton.textContent = "Menu"
     let contactButton = document.createElement("button")
+    contactButton.setAttribute("id", "contactButton")
     contactButton.textContent = "Contact"
 /* 
     let contentsContainer = document.createElement("div")
