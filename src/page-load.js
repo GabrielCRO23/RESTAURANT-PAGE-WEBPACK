@@ -2,9 +2,7 @@ import { tabber } from './tabswitcher';
 
 function loadPage() {
   
-  
     content.innerHTML = ""
-
 
     let header = document.createElement("div")
     header.textContent = '한국 식당 by Gabriel'
@@ -43,8 +41,7 @@ function loadPage() {
     
     contactButton.addEventListener("click", function(){  
         tabber('contact')
-    })
-    
+    }) 
 }
 
 
