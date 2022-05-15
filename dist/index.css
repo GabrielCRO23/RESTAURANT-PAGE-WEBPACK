@@ -61,21 +61,6 @@ div .contents {
     background:rgba(0,0,0,0.33);
     border-radius: 10px; 
 }
-
-
-/*
-.home {
-    display: flex;
-}
-
-.menu {
-    display: flex;
-}
-
-.contact {
-    display: none;
-}
-*/
 @media (max-width: 1000px) {
     div .header {
         color: white;
