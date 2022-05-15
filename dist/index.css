@@ -63,19 +63,19 @@ div .contents {
 }
 
 
-
+/*
 .home {
     display: flex;
 }
 
 .menu {
-    display: none;
+    display: flex;
 }
 
 .contact {
     display: none;
 }
-
+*/
 @media (max-width: 1000px) {
     div .header {
         color: white;

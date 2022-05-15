@@ -1,6 +1,8 @@
+import { tabber } from './tabswitcher';
 
+function loadPage() {
+  
 
-function loadPage(content) {
     let header = document.createElement("div")
     header.textContent = '한국 식당'
     header.classList.add('header')
@@ -44,6 +46,8 @@ function loadPage(content) {
     */
     content.appendChild(header)
     content.appendChild(buttonContainer)
+    
+    
     /*
     content.appendChild(contentsContainer)
     */
