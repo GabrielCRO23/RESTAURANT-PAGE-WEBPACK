@@ -65,12 +65,13 @@ div .contents {
     div .header {
         color: white;
     }
-    body {
+    #content {
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
         align-items: center;
     }
+
     div .button-container {
         display: flex;
         justify-content: center;
@@ -80,6 +81,7 @@ div .contents {
     div .contents {
         display: flex;
         justify-content: center;
+        
         width: 80vw;
         margin-left: 0px;
         margin-top: 0px;
